@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR"
+xmlns="http://www.w3.org/1999/xhtml"
+xmlns:th="http://www.thymeleaf.org"
+xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="/css/bootstrap.css"/>
+    <title layout:title-pattern="$DECORATOR_TITLE - $CONTENT_TITLE">Dackle</title>
+  </head>
+  <body>
+    <div th:include="fragments/_header :: header"></div>
+
+    <div layout:fragment="content"></div>
+
+  </body>
+</html>
