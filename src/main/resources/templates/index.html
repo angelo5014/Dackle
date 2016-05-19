@@ -13,7 +13,8 @@ layout:decorator="template">
 <body>
 		<div layout:fragment="content">
 				<div id="home">
-					Bem vindo ao Dackle
+					<div th:include="header" ></div>
+					<div th:include="body1"></div>
 				</div>
 		</div>
 </body>
