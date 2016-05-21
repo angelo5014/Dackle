@@ -1,31 +1,52 @@
 <!DOCTYPE html>
-<html lang="pt-BR"
-xmlns="http://www.w3.org/1999/xhtml"
-xmlns:th="http://www.thymeleaf.org"
-xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
-layout:decorator="template">
+<html lang="pt-BR" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorator="template">
 <head>
-	<meta charset="UTF-8"/>
-	<title>Home</title>
+<meta charset="UTF-8" />
+<title>Home</title>
 </head>
 <body>
-		<div layout:fragment="content">
-
-				<div class="container">
-			      <div class="jumbotron">
-			        <h1>Ênfase em mudar o mundo</h1>
-			        <br></br>
-			        <h2> Ideias inovadoras e versátilidade de trabalho </h2>
-			        <p>
-			          <br>
-			          Amor ao software e metodologias de trabalho efetivas resultam em software de qualidade.
-			          </br>
-			        </p>
-			        <h3>Sede de mudança e amor são nossos pré-requisitos.</h3>
-			        <p><a class="btn btn-primary btn-lg" href="#contato" role="button">Vamos conversar?</a></p>
-			      </div>
-			  </div>
-				
+	<div layout:fragment="content">
+		<div class="container">
+			<div class="jumbotron">
+				<h1>Ênfase em mudar o mundo</h1>
+				<br></br>
+				<h2>Ideias inovadoras e versátilidade de trabalho</h2>
+				<p>
+					<br></br> Amor ao software e metodologias de trabalho efetivas
+					resultam em software de qualidade. <br></br>
+				</p>
+				<h3>Sede de mudança e amor são nossos pré-requisitos.</h3>
+				<br></br>
+				<p>
+					<a class="btn btn-primary btn-lg" href="#contato" role="button">Vamos
+						conversar?</a>
+				</p>
+			</div>
+			<!-- Ajustar CSS para display : inline-block -->
+			<div class="row">
+				<div class="col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<div class="caption">
+							<img alt="foto_leonardo" src=""></img>
+							<h3>Leonardo Bork</h3>
+							<h5>Co-Fundador</h5>
+							<p>Dackle é o resultado de uma amizade, jovens contruindo sonhos</p>
+						</div>
+					</div>
+					<div class="thumbnail">
+						<div class="caption">
+							<img alt="foto_angelo" src=""></img>
+							<h3>Angelo Viana</h3>
+							<h5>Co-Fundador</h5>
+							<p>Dackle é o resultado de uma amizade, jovens contruindo sonhos</p>
+						</div>
+					</div>
+				</div>
+			</div>	
 		</div>
+	</div>
 </body>
 </html>
